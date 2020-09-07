@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.listUl,
+.mockup {
+  width: 100%;
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.listUl button,
+.takeQuestions button,
+.mockup button,
+.button-container div button,
+.takeAgain button {
+  border-radius: 5px;
+  margin: 10px 0;
+  background: transparent;
+  padding: 10px 20px;
+  border: 2px solid #777;
+  cursor: pointer;
+  transition: 0.3s;
+  display: block;
+}
+.timer {
+  top: 5%;
+  position: fixed;
+  right: 5%;
+  background: rgb(4, 23, 131);
+}
+label {
+  color: white;
+  font-size: 18px;
+  margin: 0 20px;
+}
+.input {
+  height: 40px;
+  font-size: 18px;
+  padding: 5px;
+}
+.examinfo {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+#not-subject {
+  background: transparent;
+  color: white;
+}
+#subject {
+  background: #777;
+  color: white;
+}
+.takeQuestions button {
+  width: 100%;
+}
+button a,
+.button-container div button,
+.takeAgain button {
+  color: white;
+}
+.takeAgain {
+  padding: 20px 0;
+}
+button:hover,
+.button-container div button:hover,
+.takeAgain button:hover {
+  background: black;
+}
+button:hover a,
+.button-container div button:hover a,
+.takeAgain button:hover a {
+  color: white;
+  text-decoration: none;
+}
+.button-container {
+  display: flex;
+  justify-content: space-between;
+}
+.question {
+  background: white;
+  margin: 50px 0;
+  border-radius: 5px;
+}
+.options {
+  background: #777;
+  padding: 8px 4px;
+  color: white;
+}
+
+.options div {
+  border: 2px solid black;
+  padding: 6px 4px;
+  margin: 7px 4px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.questionBox {
+  padding: 10px 5px;
+}
+.sectionBox {
+  background: rgb(32, 31, 31);
+  color: white;
+  padding: 10px 5px;
+}
+
+.takeQuiz {
+  /* background: red; */
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0px;
+}
+.takeAgain {
+  display: none;
+}
+#not-selected {
+  background: transparent;
+}
+#selected {
+  background: orange;
+}
+
+.subject {
+  margin: 30px 0;
+  display: none;
+}
+.message {
+  position: fixed;
+  width: 100%;
+  top: 5%;
+  left: 0%;
+  background: rgba(2, 1, 1, 0.842);
+  color: white;
+  text-align: center;
+}
+.cancelBtn {
+  position: fixed;
+  top: 2%;
+  right: 2%;
+  color: red;
+  z-index: 999;
+  font-size: 33px;
+  font-weight: 700;
+  cursor: pointer;
+}
