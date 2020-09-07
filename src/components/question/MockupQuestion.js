@@ -209,6 +209,7 @@ export default class MockupQuestion extends Component {
 
   submitAnswer = () => {
     if (window.confirm("are you  sure you want to submit")) {
+      clearInterval(this.myInterval)
       this.getOptions()
     }
   }
@@ -286,7 +287,7 @@ export default class MockupQuestion extends Component {
               </div>
 
               <div className="subject subject2">
-                <div>
+                <div className="text-center text-white">
                   {questionArray[1] ?
                     (<h2>{questionArray[1].subject}</h2>) : null
 
@@ -317,7 +318,7 @@ export default class MockupQuestion extends Component {
               </div>
 
               <div className="subject subject3">
-                <div>
+                <div className="text-center text-white">
                   {questionArray[2] ?
                     (<h2>{questionArray[2].subject}</h2>) : null
 
@@ -347,7 +348,7 @@ export default class MockupQuestion extends Component {
 
               </div>
               <div className="subject subject4">
-                <div>
+                <div className="text-center text-white">
                   {questionArray[3] ?
                     (<h2>{questionArray[3].subject}</h2>) : null
 
