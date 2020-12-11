@@ -23,7 +23,7 @@ jambMock is a react application, created to help students prepare for the JAMB (
 
 The plan initially was to create a simple Q & A application with HTML and CSS has a side project. But I realized I could make it better by creating it a react application that contains actually questions people could use.
 
-I used the {aloc api](https://questions.aloc.ng/), which contains about 5000 past questions across various subjects ranging from Mathematics, English etc. I decided to create an option to set it up like the actually JAMB examination where there will be a timer and users have to select the four different subject that will be taking in the actually JAMB
+I used the [aloc api](https://questions.aloc.ng/), which contains about 5000 past questions across various subjects ranging from Mathematics, English etc. I decided to create an option to set it up like the actually JAMB examination where there will be a timer and users have to select the four different subject that will be taking in the actually JAMB
 
 ## LESSON LEARNT
 
