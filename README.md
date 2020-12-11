@@ -1,10 +1,7 @@
 ## JAMBMOCK
 
----
-
 jambMock is a react application, created to help students prepare for the JAMB (Joint admission matriculation board) examination. A very important examination needed to enter the higher institution (university)
 
----
 
 ## STACK
 
